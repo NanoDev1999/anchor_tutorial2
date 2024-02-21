@@ -1,0 +1,39 @@
+
+
+
+
+
+
+wsl
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+cargo
+
+sh -c "$(curl -sSfL https://release.solana.com/v1.18.2/install)"
+solana
+
+solana config set --url https://api.devnet.solana.com
+solana config set --keypair private/my-keypair.json
+
+sudo apt install nodejs
+node
+
+curl -o- -L https://yarnpkg.com/install.sh | bash
+yarn
+
+
+
+https://www.anchor-lang.com/docs/installation
+
+cargo install --git https://github.com/coral-xyz/anchor avm --locked --force
+
+avm install latest
+avm use latest
+
+anchor --version
+
+
+anchor init <new-workspace-name>
+
+
+
