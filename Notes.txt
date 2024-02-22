@@ -37,3 +37,6 @@ anchor init <new-workspace-name>
 
 
 
+After doing a few tutorials had to add this crate:
+
+cargo add anchor-spl
